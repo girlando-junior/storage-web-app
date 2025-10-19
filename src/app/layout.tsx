@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR" className={`${geist.variable} ${geistMono.variable}`}>
-      <body >{children}</body>
+      <body style={{background: '#000', color: '#fff'  }} >{children}</body>
     </html>
   );
 }
