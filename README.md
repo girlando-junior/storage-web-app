@@ -1,4 +1,4 @@
-# Título do projeto
+# Sistema de estoque
 
 Um parágrafo da descrição do projeto vai aqui
 
