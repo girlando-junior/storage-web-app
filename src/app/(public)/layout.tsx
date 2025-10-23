@@ -1,5 +1,5 @@
 export default function LayoutPublic({ children}: { children: React.ReactNode}) {
     return (
-        <main style={{background: '#000', color: '#fff'}}>{children}</main>
+        <main style={{background: '#F8FAFC', color: '#fff'}}>{children}</main>
     )
 }

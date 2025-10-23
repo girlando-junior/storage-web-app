@@ -8,7 +8,7 @@ export default function PrivateLayout({ children }: { children: React.ReactNode 
       <Sidebar />
       <div className="flex flex-col flex-1">
         <Header />
-        <main className="p-4 overflow-y-auto">{children}</main>
+        <main className="bg-[var(--color-background)] p-4 overflow-y-auto">{children}</main>
         <Footer />
       </div>
     </div>
