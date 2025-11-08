@@ -10,12 +10,10 @@ export default function PrivateLayout({
   return (
     <div className="flex flex-col h-screen">
       <Header />
-
       <div className="flex flex-1 overflow-hidden">
         <Sidebar />
-
         <div className="flex flex-col flex-1 overflow-y-auto">
-          <main className="flex-1 bg-[var(--color-background)] p-4">
+          <main className="flex-1 bg-[var(--color-background)] p-[16px] text-[var(--color-primary)]">
             {children}
           </main>
           <Footer />
